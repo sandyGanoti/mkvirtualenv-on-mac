@@ -15,7 +15,7 @@ Save and exit.
 
 `pip3 install virtualenv virtualenvwrapper`
 
-<ins>Step 5</ins>: Open your .bash_profile and set up and export virtualenv variables:
+<ins>Step 5</ins>: Open your .bash_profile (or whichever config which matches your shell) and set up and export virtualenv variables:
 
 `export WORKON_HOME=$HOME/.virtualenvs` 
 
@@ -27,7 +27,8 @@ Save and exit.
 
 Save and exit.
 
-<ins>Step 6</ins>: Execute the following command in order your machine to pick up the new changes
+<ins>Step 6</ins>: Execute the following command in order your machine to pick up the new changes:
+`source .bash_profile`
 
 <ins>Step 7</ins>: Create a virtual env by executing the command:
 
