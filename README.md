@@ -11,9 +11,11 @@
 
 Save and exit.
 
-<ins>Step 4</ins>: Install `virtualenv` & `virtualenvwrapper` by executing: `pip3 install virtualenv virtualenvwrapper`
+<ins>Step 4</ins>: Install `virtualenv` & `virtualenvwrapper` by executing: 
+`pip3 install virtualenv virtualenvwrapper`
 
 <ins>Step 5</ins>: Open your .bash_profile and set up and export virtualenv variables:
+
 `export WORKON_HOME=$HOME/.virtualenvs` 
 
 `export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3` 
