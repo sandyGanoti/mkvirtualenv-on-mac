@@ -11,7 +11,8 @@
 
 Save and exit.
 
-<ins>Step 4</ins>: Install `virtualenv` & `virtualenvwrapper` by executing: 
+<ins>Step 4</ins>: Install `virtualenv` & `virtualenvwrapper` by executing:
+
 `pip3 install virtualenv virtualenvwrapper`
 
 <ins>Step 5</ins>: Open your .bash_profile and set up and export virtualenv variables:
@@ -28,4 +29,6 @@ Save and exit.
 
 <ins>Step 6</ins>: Execute the following command in order your machine to pick up the new changes
 
-<ins>Step 7</ins>: Create a virtual env by executing the command  `mkvirtualenv --python=`which python3` <yourDesiredVirtualEnvName>` 
+<ins>Step 7</ins>: Create a virtual env by executing the command:
+
+``mkvirtualenv --python=`which python3` <yourDesiredVirtualEnvName>``
