@@ -32,4 +32,13 @@ Save and exit.
 
 <ins>Step 7</ins>: Create a virtual env by executing the command:
 
-``mkvirtualenv --python=`which python3` <yourDesiredVirtualEnvName>``
+``mkvirtualenv --python=`which python3` yourDesiredVirtualEnvName``
+
+
+------
+**
+In case you want to activate your virtual env in another terminal, the command:
+
+`source .virtualenvs/yourDesiredVirtualEnvName/bin/activate`  
+
+should do the work for you
